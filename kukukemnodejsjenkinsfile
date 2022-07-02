@@ -1,8 +1,5 @@
 pipeline {
     agent any
-   tools{
-       nodejs "nodejs18.0.0"
-   }
     stages{
         stage ("1.Gitclone"){
             steps{
